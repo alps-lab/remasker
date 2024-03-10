@@ -1,7 +1,6 @@
 # ReMasker
 
-This is the implementation for the ICLR'24 paper: [ReMasker: Imputing Tabular Data with Masked Autoencoding]
-(https://openreview.net/forum?id=KI9NqjLVDT)
+This is the implementation for the ICLR'24 paper: [ReMasker: Imputing Tabular Data with Masked Autoencoding](https://openreview.net/forum?id=KI9NqjLVDT)
 
 
 ## Installation
@@ -45,6 +44,7 @@ print(imputed[3,0])
 
 If you use the code, please cite our paper: 
 
+```
 @inproceedings{
     du2024remasker,
     title={ReMasker: Imputing Tabular Data with Masked Autoencoding},
@@ -53,3 +53,4 @@ If you use the code, please cite our paper:
     year={2024},
     url={https://openreview.net/forum?id=KI9NqjLVDT}
 }
+```
