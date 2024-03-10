@@ -1,8 +1,8 @@
 # ReMasker
 
-This is the code implementation for the anonymous submission to ICLR 2024:
+This is the implementation for the ICLR'24 paper: [ReMasker: Imputing Tabular Data with Masked Autoencoding]
+(https://openreview.net/forum?id=KI9NqjLVDT)
 
-**ReMasker: Imputing Tabular Data with Masked Autoencoding**
 
 ## Installation
 1. Require environment of `python>=3.9`
@@ -40,3 +40,16 @@ imputer = ReMasker()
 imputed = imputer.fit_transform(X)
 print(imputed[3,0])
 ```
+
+## Citation
+
+If you use the code, please cite our paper: 
+
+@inproceedings{
+    du2024remasker,
+    title={ReMasker: Imputing Tabular Data with Masked Autoencoding},
+    author={Tianyu Du and Luca Melis and Ting Wang},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/forum?id=KI9NqjLVDT}
+}
